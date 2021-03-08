@@ -4,11 +4,12 @@ BootstrapのテンプレートのVoltをDjnagoに適応させてすぐに活用�
 
 ## How to Use
 - リポジトリをCloneする
-- runseverを実行 
+- pip install django を実行
+- 以下の通りrunseverを実行 
 ```
 python manage.py runserver
 ```
-
+- http://localhost:8000　にアクセス
 ## Structure
 templatesフォルダ配下にhtmlが格納されています。
 staticフォルダ配下にjavascript、css等の静的ファイルが格納されています。
